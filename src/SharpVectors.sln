@@ -1,0 +1,146 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpVectorViewer", "SharpVectorViewer\SharpVectorViewer.csproj", "{AABE71B6-057B-423C-822A-E9CD2129D2F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpVectorObjectModel", "SharpVectorObjectModel\SharpVectorObjectModel.csproj", "{5D336F48-3FB9-4382-B4B9-06974C764007}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpVectorRenderingEngine", "SharpVectorRenderingEngine\SharpVectorRenderingEngine.csproj", "{0AD99D97-24ED-484D-9430-9905811F8A4F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgComponents", "SvgComponents\SvgComponents.csproj", "{FEAD3062-16E7-4E06-99D1-37ECF8B03E57}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpVectorCss", "SharpVectorCss\SharpVectorCss.csproj", "{351B0A6E-2F6B-497A-844B-DCB5A502FB0D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpVectorUtil", "SharpVectorUtil\SharpVectorUtil.csproj", "{2C3D4EE6-4F71-41F0-99F6-DDAA439C88C6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpVectorUnitTests", "SharpVectorUnitTests\SharpVectorUnitTests.csproj", "{39260366-BE2B-49BB-B9D2-DC6AB92294FA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpVectorScripting", "SharpVectorScripting\SharpVectorScripting.csproj", "{2C56C191-EB9D-4658-84EE-73D2605896E6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpVectorPerfTest", "SharpVectorPerfTest\SharpVectorPerfTest.csproj", "{A203DC0F-AF66-489B-B77D-CFFAA38520B5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpVectorBindings", "SharpVectorBindings\SharpVectorBindings.csproj", "{D6BB65FC-240E-4241-B2ED-A7FB3F13E978}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpVectorDom", "SharpVectorDom\SharpVectorDom.csproj", "{FE34CBC0-D23C-4A95-BA64-83A031814010}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug + xmldoc = Debug + xmldoc
+		Release = Release
+		Release + xmldoc = Release + xmldoc
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AABE71B6-057B-423C-822A-E9CD2129D2F9}.Debug.ActiveCfg = Debug|.NET
+		{AABE71B6-057B-423C-822A-E9CD2129D2F9}.Debug.Build.0 = Debug|.NET
+		{AABE71B6-057B-423C-822A-E9CD2129D2F9}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{AABE71B6-057B-423C-822A-E9CD2129D2F9}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{AABE71B6-057B-423C-822A-E9CD2129D2F9}.Release.ActiveCfg = Release|.NET
+		{AABE71B6-057B-423C-822A-E9CD2129D2F9}.Release.Build.0 = Release|.NET
+		{AABE71B6-057B-423C-822A-E9CD2129D2F9}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{AABE71B6-057B-423C-822A-E9CD2129D2F9}.Release + xmldoc.Build.0 = Release + xmldoc|.NET
+		{5D336F48-3FB9-4382-B4B9-06974C764007}.Debug.ActiveCfg = Debug|.NET
+		{5D336F48-3FB9-4382-B4B9-06974C764007}.Debug.Build.0 = Debug|.NET
+		{5D336F48-3FB9-4382-B4B9-06974C764007}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{5D336F48-3FB9-4382-B4B9-06974C764007}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{5D336F48-3FB9-4382-B4B9-06974C764007}.Release.ActiveCfg = Release|.NET
+		{5D336F48-3FB9-4382-B4B9-06974C764007}.Release.Build.0 = Release|.NET
+		{5D336F48-3FB9-4382-B4B9-06974C764007}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{5D336F48-3FB9-4382-B4B9-06974C764007}.Release + xmldoc.Build.0 = Release + xmldoc|.NET
+		{0AD99D97-24ED-484D-9430-9905811F8A4F}.Debug.ActiveCfg = Debug|.NET
+		{0AD99D97-24ED-484D-9430-9905811F8A4F}.Debug.Build.0 = Debug|.NET
+		{0AD99D97-24ED-484D-9430-9905811F8A4F}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{0AD99D97-24ED-484D-9430-9905811F8A4F}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{0AD99D97-24ED-484D-9430-9905811F8A4F}.Release.ActiveCfg = Release|.NET
+		{0AD99D97-24ED-484D-9430-9905811F8A4F}.Release.Build.0 = Release|.NET
+		{0AD99D97-24ED-484D-9430-9905811F8A4F}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{0AD99D97-24ED-484D-9430-9905811F8A4F}.Release + xmldoc.Build.0 = Release + xmldoc|.NET
+		{FEAD3062-16E7-4E06-99D1-37ECF8B03E57}.Debug.ActiveCfg = Debug|.NET
+		{FEAD3062-16E7-4E06-99D1-37ECF8B03E57}.Debug.Build.0 = Debug|.NET
+		{FEAD3062-16E7-4E06-99D1-37ECF8B03E57}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{FEAD3062-16E7-4E06-99D1-37ECF8B03E57}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{FEAD3062-16E7-4E06-99D1-37ECF8B03E57}.Release.ActiveCfg = Release|.NET
+		{FEAD3062-16E7-4E06-99D1-37ECF8B03E57}.Release.Build.0 = Release|.NET
+		{FEAD3062-16E7-4E06-99D1-37ECF8B03E57}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{FEAD3062-16E7-4E06-99D1-37ECF8B03E57}.Release + xmldoc.Build.0 = Release + xmldoc|.NET
+		{351B0A6E-2F6B-497A-844B-DCB5A502FB0D}.Debug.ActiveCfg = Debug|.NET
+		{351B0A6E-2F6B-497A-844B-DCB5A502FB0D}.Debug.Build.0 = Debug|.NET
+		{351B0A6E-2F6B-497A-844B-DCB5A502FB0D}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{351B0A6E-2F6B-497A-844B-DCB5A502FB0D}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{351B0A6E-2F6B-497A-844B-DCB5A502FB0D}.Release.ActiveCfg = Release|.NET
+		{351B0A6E-2F6B-497A-844B-DCB5A502FB0D}.Release.Build.0 = Release|.NET
+		{351B0A6E-2F6B-497A-844B-DCB5A502FB0D}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{351B0A6E-2F6B-497A-844B-DCB5A502FB0D}.Release + xmldoc.Build.0 = Release + xmldoc|.NET
+		{2C3D4EE6-4F71-41F0-99F6-DDAA439C88C6}.Debug.ActiveCfg = Debug|.NET
+		{2C3D4EE6-4F71-41F0-99F6-DDAA439C88C6}.Debug.Build.0 = Debug|.NET
+		{2C3D4EE6-4F71-41F0-99F6-DDAA439C88C6}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{2C3D4EE6-4F71-41F0-99F6-DDAA439C88C6}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{2C3D4EE6-4F71-41F0-99F6-DDAA439C88C6}.Release.ActiveCfg = Release|.NET
+		{2C3D4EE6-4F71-41F0-99F6-DDAA439C88C6}.Release.Build.0 = Release|.NET
+		{2C3D4EE6-4F71-41F0-99F6-DDAA439C88C6}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{2C3D4EE6-4F71-41F0-99F6-DDAA439C88C6}.Release + xmldoc.Build.0 = Release + xmldoc|.NET
+		{39260366-BE2B-49BB-B9D2-DC6AB92294FA}.Debug.ActiveCfg = Debug|.NET
+		{39260366-BE2B-49BB-B9D2-DC6AB92294FA}.Debug.Build.0 = Debug|.NET
+		{39260366-BE2B-49BB-B9D2-DC6AB92294FA}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{39260366-BE2B-49BB-B9D2-DC6AB92294FA}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{39260366-BE2B-49BB-B9D2-DC6AB92294FA}.Release.ActiveCfg = Release|.NET
+		{39260366-BE2B-49BB-B9D2-DC6AB92294FA}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{2C56C191-EB9D-4658-84EE-73D2605896E6}.Debug.ActiveCfg = Debug|.NET
+		{2C56C191-EB9D-4658-84EE-73D2605896E6}.Debug.Build.0 = Debug|.NET
+		{2C56C191-EB9D-4658-84EE-73D2605896E6}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{2C56C191-EB9D-4658-84EE-73D2605896E6}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{2C56C191-EB9D-4658-84EE-73D2605896E6}.Release.ActiveCfg = Release|.NET
+		{2C56C191-EB9D-4658-84EE-73D2605896E6}.Release.Build.0 = Release|.NET
+		{2C56C191-EB9D-4658-84EE-73D2605896E6}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{2C56C191-EB9D-4658-84EE-73D2605896E6}.Release + xmldoc.Build.0 = Release + xmldoc|.NET
+		{A203DC0F-AF66-489B-B77D-CFFAA38520B5}.Debug.ActiveCfg = Debug|.NET
+		{A203DC0F-AF66-489B-B77D-CFFAA38520B5}.Debug.Build.0 = Debug|.NET
+		{A203DC0F-AF66-489B-B77D-CFFAA38520B5}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{A203DC0F-AF66-489B-B77D-CFFAA38520B5}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{A203DC0F-AF66-489B-B77D-CFFAA38520B5}.Release.ActiveCfg = Release|.NET
+		{A203DC0F-AF66-489B-B77D-CFFAA38520B5}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{D6BB65FC-240E-4241-B2ED-A7FB3F13E978}.Debug.ActiveCfg = Debug|.NET
+		{D6BB65FC-240E-4241-B2ED-A7FB3F13E978}.Debug.Build.0 = Debug|.NET
+		{D6BB65FC-240E-4241-B2ED-A7FB3F13E978}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{D6BB65FC-240E-4241-B2ED-A7FB3F13E978}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{D6BB65FC-240E-4241-B2ED-A7FB3F13E978}.Release.ActiveCfg = Release|.NET
+		{D6BB65FC-240E-4241-B2ED-A7FB3F13E978}.Release.Build.0 = Release|.NET
+		{D6BB65FC-240E-4241-B2ED-A7FB3F13E978}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{D6BB65FC-240E-4241-B2ED-A7FB3F13E978}.Release + xmldoc.Build.0 = Release + xmldoc|.NET
+		{FE34CBC0-D23C-4A95-BA64-83A031814010}.Debug.ActiveCfg = Debug|.NET
+		{FE34CBC0-D23C-4A95-BA64-83A031814010}.Debug.Build.0 = Debug|.NET
+		{FE34CBC0-D23C-4A95-BA64-83A031814010}.Debug + xmldoc.ActiveCfg = Debug + xmldoc|.NET
+		{FE34CBC0-D23C-4A95-BA64-83A031814010}.Debug + xmldoc.Build.0 = Debug + xmldoc|.NET
+		{FE34CBC0-D23C-4A95-BA64-83A031814010}.Release.ActiveCfg = Release|.NET
+		{FE34CBC0-D23C-4A95-BA64-83A031814010}.Release.Build.0 = Release|.NET
+		{FE34CBC0-D23C-4A95-BA64-83A031814010}.Release + xmldoc.ActiveCfg = Release + xmldoc|.NET
+		{FE34CBC0-D23C-4A95-BA64-83A031814010}.Release + xmldoc.Build.0 = Release + xmldoc|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		SVGSharp.key = SVGSharp.key
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

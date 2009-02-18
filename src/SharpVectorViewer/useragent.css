@@ -1,0 +1,2 @@
+svg, symbol, image, marker, pattern, foreignObject { overflow: hidden }
+svg { width:attr(width); height:attr(height) }

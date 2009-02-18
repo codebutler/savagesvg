@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <marker id="marker2" viewBox="0 0 10 10" markerWidth="12" markerHeight="12" refX="5" refY="0" markerUnits="strokeWidth" orient="auto">
+        <path d="M 5 0 L 10 10 L 0 10 Z" fill="blue" stroke="none"/>
+    </marker>
+    <polyline points="20,5 45,10 40,40 15,45" marker-mid="url(#marker2)" stroke="black" fill="none"/>
+</svg>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<project name="Main" default="debug">
+	<property name="lib.dir" value="..\..\lib"/>
+	
+	<property name="debug" value="true"/>
+	<property name="build.dir" value="build"/>
+	<property name="project.name" value="SvgComponents"/>
+	<property name="project.FormalName" value="SvgComponents"/>
+	
+	<!-- directory where temp .resources files are placed -->
+	<property name="resbuild.dir" value="ResBuild"/>
+	<!-- directory where .resx files are -->
+	<property name="resources.dir" value="Resources"/>
+	
+	<!--
+		Calls all sub-nant tasks to do a debug build
+	-->
+	<target name="debug" description="Compiles a debug version">
+		<property name="debug" value="true"/>
+		<property name="build.dir" value="build\Debug"/>
+		<call target="build"/>
+	</target>
+	
+	<!--
+		Calls all sub-nant tasks to do a release build
+	-->
+	<target name="release" description="Compiles a release version">
+		<property name="debug" value="false"/>
+		<property name="build.dir" value="build\Release"/>
+		<call target="build"/>
+	</target>
+	
+	<!--
+		Removes all resources, .pdb, .dll files that get generated during a build
+		The sub-tasks get to clean their own files rather than this task cleaning
+		up for everyone.
+	-->
+	<target name="clean" description="Removes temporary files generated during compilation.">
+		<delete verbose="true" failonerror="false" dir="build" />
+	</target>
+	<!--
+		This compiles the SharpVector		
+	-->
+	<target name="build" description="Compiles the system (defaults to a debug build).">
+		<mkdir dir="${build.dir}"/>
+		
+		<copy file="${lib.dir}\SharpZipLib.dll" todir="${build.dir}" />
+		<copy file="..\SharpVectorBindings\${build.dir}\SharpVectorBindings.dll" todir="${build.dir}" />
+		<copy file="..\SharpVectorDom\${build.dir}\SharpVectorDom.dll" todir="${build.dir}" />
+		<copy file="..\SharpVectorUtil\${build.dir}\SharpVectorUtil.dll" todir="${build.dir}"/>
+		<copy file="..\SharpVectorCss\${build.dir}\SharpVectorCss.dll" todir="${build.dir}"/>
+		<copy file="..\SharpVectorScripting\${build.dir}\SharpVectorScripting.dll" todir="${build.dir}"/>
+		<copy file="..\SharpVectorObjectModel\${build.dir}\SharpVectorObjectModel.dll" todir="${build.dir}"/>
+		<copy file="..\SharpVectorRenderingEngine\${build.dir}\SharpVectorRenderingEngine.dll" todir="${build.dir}"/>
+		
+		<!-- compile SvgComponents.dll -->
+		<!-- doc="${build.dir}\${project.name}.xml"  -->
+		<csc target="library" output="${build.dir}\${project.name}.dll" debug="${debug}" doc="${build.dir}\${project.name}.xml">
+			<sources basedir=".">
+				<include name="**.cs"/>
+			</sources>
+			<references basedir="${build.dir}">
+				<include name="SharpVectorBindings.dll"/>
+				<include name="SharpVectorCss.dll"/>
+				<include name="SharpVectorDom.dll"/>
+				<include name="SharpVectorUtil.dll"/>
+				<include name="SharpVectorScripting.dll"/>
+				<include name="SharpVectorObjectModel.dll"/>
+				
+				<include name="SharpZipLib.dll"/>
+				
+				<include name="SharpVectorRenderingEngine.dll"/>
+			</references>
+			<!--<arg value="/warnaserror"/>-->
+			<arg value="/nologo"/>
+			<arg value="/nowarn:1591"/>
+		</csc>
+	</target>
+</project>

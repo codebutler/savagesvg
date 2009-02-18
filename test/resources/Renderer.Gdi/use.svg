@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="rect" width="15" height="15" fill="red"/>
+    </defs>
+    <use x="5"  y="5"  xlink:href="#rect"/>
+    <use x="30" y="30" xlink:href="#rect"/>
+</svg>

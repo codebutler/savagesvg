@@ -1,0 +1,1265 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{D6BB65FC-240E-4241-B2ED-A7FB3F13E978}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "SharpVectorBindings"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = ""
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE;TEST"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Debug + xmldoc"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = "SharpVectorBindings.doc.xml"
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug + xmldoc\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release + xmldoc"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = "SharpVectorBindings.doc.xml"
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Release + xmldoc\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Test"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TEST"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Test\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "H:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "H:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "H:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "H:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IAttribute.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\ICDataSection.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\ICharacterData.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IComment.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IDocument.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IDocumentFragment.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IDocumentType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IDomConfiguration.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IDomImplementation.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IEntityReference.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\INode.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\INodeList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IProcessingInstruction.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IText.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IXmlElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\IXmlNode.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\CssPrimitiveType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\CssRuleType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\CssValueType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICounter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssCharsetRule.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssFontFaceRule.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssImportRule.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssMediaRule.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssPageRule.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssPrimitiveValue.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssRule.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssRuleList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssStyleDeclaration.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssStyleRule.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssStyleSheet.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssUnknownRule.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssValue.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\ICssValueList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\IDocumentCss.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\IDomImplementationCss.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\IElementCssInlineStyle.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\IRect.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\IRgbColor.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Css\IViewCss.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\AttrChangeType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\DomEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\EventException.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\EventPhase.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\ICustomEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\IDocumentEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\IEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\IEventException.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\IEventTarget.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\IKeyboardEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\IMouseEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\IMutationEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\IMutationNameEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\ITextEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\IUiEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Events\KeyLocationCode.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Stylesheets\IDocumentStyle.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Stylesheets\ILinkStyle.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Stylesheets\IMediaList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Stylesheets\IStyleSheet.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Stylesheets\IStyleSheetList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\IContainerElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\IGraphicsElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\ISharpDoNotPaint.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\ISharpGdiPath.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\ISvgWindow.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAngle.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAnimatedAngle.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAnimatedBoolean.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAnimatedEnumeration.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAnimatedInteger.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAnimatedLength.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAnimatedLengthList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAnimatedNumber.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAnimatedNumberList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAnimatedRect.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgAnimatedString.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgColor.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgCursorElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgExternalResourcesRequired.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgFitToViewBox.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgIccColor.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgLangSpace.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgLength.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgLengthList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgLocatable.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgNumber.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgNumberList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgRect.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgStringList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgStylable.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgTests.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgTransformable.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgUriReference.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgViewElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgViewSpec.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\ISvgZoomAndPan.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgAngleType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgColorType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgFilterBlendMode.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgFilterChannelSelector.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgFilterColorMatrix.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgFilterComponentTransferType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgFilterCompositeOperator.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgFilterEdgeMode.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgFilterStitchOption.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgFilterTurbulenceType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgLengthType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgMeetOrSlice.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgMorphologyOperator.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgPreserveAspectRatioType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgUnitType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Data Types and Interfaces\SvgZoomAndPanType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Shapes\ISvgAnimatedPoints.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Shapes\ISvgCircleElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Shapes\ISvgEllipseElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Shapes\ISvgLineElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Shapes\ISvgPolygonElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Shapes\ISvgPolylineElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Basic Shapes\ISvgRectElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Clipping Masking and Compositing\ISharpMarkerHost.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Clipping Masking and Compositing\ISvgClipPathElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Clipping Masking and Compositing\ISvgMaskElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Coordinate Systems Transformations and Units\ISvgAnimatedPreserveAspectRatio.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Coordinate Systems Transformations and Units\ISvgAnimatedTransformList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Coordinate Systems Transformations and Units\ISvgMatrix.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Coordinate Systems Transformations and Units\ISvgPoint.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Coordinate Systems Transformations and Units\ISvgPointList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Coordinate Systems Transformations and Units\ISvgPreserveAspectRatio.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Coordinate Systems Transformations and Units\ISvgTransform.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Coordinate Systems Transformations and Units\ISvgTransformList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgDefsElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgDescElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgDocument.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgElementInstance.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgElementInstanceList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgGElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgImageElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgSvgElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgSwitchElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgSymbolElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgTitleElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Document Structure\ISvgUseElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgComponentTransferFunctionElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEBlendElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEColorMatrixElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEComponentTransferElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFECompositeElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEConvolveMatrixElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEDiffuseLightingElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEDisplacementMapElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEDistantLightElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEFloodElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEFuncAElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEFuncBElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEFuncGElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEFuncRElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEGaussianBlurElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEImageElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEMergeElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEMergeNodeElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEMorphologyElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEOffsetElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFEPointLightElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFESpecularLightingElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFESpotLightElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFETileElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFETurbulenceElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFilterElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Filters\ISvgFilterPrimitiveStandardAttributes.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Gradients and Patterns\ISvgGradientElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Gradients and Patterns\ISvgLinearGradientElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Gradients and Patterns\ISvgPatternElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Gradients and Patterns\ISvgRadialGradientElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Gradients and Patterns\ISvgStopElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Metadata\ISvgMetadataElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Painting\ISvgMarkerElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Painting\ISvgPaint.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Painting\SvgMarkerOrient.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Painting\SvgMarkerUnit.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Painting\SvgPaintType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgAnimatedPathData.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSeg.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegArcAbs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegArcRel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegClosePath.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegCurvetoCubicAbs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegCurvetoCubicRel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegCurvetoCubicSmoothAbs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegCurvetoCubicSmoothRel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegCurvetoQuadraticAbs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegCurvetoQuadraticRel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegCurvetoQuadraticSmoothAbs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegCurvetoQuadraticSmoothRel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegLinetoAbs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegLinetoHorizontalAbs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegLinetoHorizontalRel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegLinetoRel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegLinetoVerticalAbs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegLinetoVerticalRel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegMovetoAbs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\ISvgPathSegMovetoRel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Paths\SvgPathSegType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Rendering\ISvgRenderer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Rendering\RenderingNode.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Scripting\ISvgScriptElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Text\ISvgTextContentElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Text\ISvgTextElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Text\ISvgTextPathElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Text\ISvgTextPositioningElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Text\ISvgTRefElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Svg\Text\ISvgTSpanElement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Views\IAbstractView.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SharpVectors\Dom\Views\IDocumentView.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<project name="Main" default="debug">
+	<property name="lib.dir" value="..\..\lib"/>
+	
+	<property name="debug" value="true"/>
+	
+	<property name="build.dir" value="build"/>
+	
+	<property name="project.name" value="SharpVectorBindings"/>
+	<property name="project.FormalName" value="SharpVectorBindings"/>
+	
+	<!--
+		Calls all sub-nant tasks to do a debug build
+	-->
+	<target name="debug" description="Compiles a debug version">
+		<property name="debug" value="true"/>
+		<property name="build.dir" value="build\Debug"/>
+		<call target="build"/>
+	</target>
+	<!--
+		Calls all sub-nant tasks to do a release build
+	-->
+	<target name="release" description="Compiles a release version">
+		<property name="debug" value="false"/>
+		<property name="build.dir" value="build\Release"/>
+		<call target="build"/>
+	</target>
+	
+	<!--
+		Removes all resources, .pdb, .dll files that get generated during a build
+		The sub-tasks get to clean their own files rather than this task cleaning
+		up for everyone.
+	-->
+	<target name="clean" description="Removes temporary files generated during compilation.">
+		<delete verbose="true" failonerror="false" dir="build" />
+	</target>
+	
+	<!--
+		This compiles the SharpVectorBindings.dll
+	-->
+	<target name="build" description="Compiles the system (defaults to a debug build).">
+		<mkdir dir="${build.dir}"/>
+		
+		<copy file="${lib.dir}\SharpZipLib.dll" todir="${build.dir}" />
+		<copy file="${lib.dir}\nunit.framework.dll" todir="${build.dir}" if="${debug}" />
+		
+		<csc target="library" output="${build.dir}\${project.name}.dll" doc="${build.dir}\${project.name}.xml" debug="${debug}">
+			<sources basedir=".">
+				<include name="**.cs"/>
+			</sources>
+			<references basedir="${build.dir}">
+				<include name="nunit.framework.dll" if="${debug}"/>
+			</references>
+			<!--<arg value="/warnaserror"/>-->
+			<arg value="/define:TEST" if="${debug}"/>
+			<arg value="/nologo"/>
+			<arg value="/nowarn:1591"/>
+			<!--
+				warning CS0679
+				Other languages may permit the internal virtual member
+				'SharpVectors.Dom.Css.CssStyleSheet.GetStylesForElement(
+					System.Xml.XmlElement, string, SharpVectors.Dom.Stylesheets.MediaList,
+					SharpVectors.Dom.Css.SharpCssCollectedStyleDeclaration)'
+				to be overridden
+			-->
+			<arg value="/nowarn:0679"/>
+		</csc>
+	</target>
+</project>

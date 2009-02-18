@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" id="svg">
+	<style type="text/css">
+	<![CDATA[
+		#g2 #rect2{fill: green;}
+		
+		#g3 rect{fill: green;}
+		
+		#g4 .c1{fill: green;}
+		
+		#g5 .c1.c2{fill: green;}
+		
+		#g6 *{fill: green;}
+		#g6 text{fill: black;}
+
+		#g7 [width]{fill: green;}
+		
+		#g8 [width="75"]{fill: green;}
+		
+		#g9 [width^="7"]{fill: green;}
+		
+		#g10 [width$="5"]{fill: green;}
+
+		#g11 *:not(dummy) {fill: green;}
+		
+		#g12 *:not(#dummy) {fill: green;}
+		
+		#g13 *:not(.dummy) {fill: green;}
+		
+		#g14 *:lang(se) {fill: green;}
+		
+		#g15 *:empty {fill: green;}
+
+
+		/*#svg g rect{fill:green;}*/
+]]>
+	</style>
+	<g transform="translate(0, 0)">
+		<g id="g1">
+			<rect width="75" height="3" fill="green"/>
+			<!-- Property attribute -->
+		</g>
+		<g id="g2" transform="translate(0, 3)">
+			<rect id="rect2" width="75" height="3" fill="red"/>
+			<!-- ID -->
+		</g>
+		<g id="g3" transform="translate(0, 6)">
+			<rect width="75" height="3" fill="red"/>
+			<!-- Type -->
+		</g>
+		<g id="g4" transform="translate(0, 9)">
+			<rect class="c1"  width="75" height="3" fill="red"/>
+			<!-- Class -->
+		</g>
+		<g id="g5" transform="translate(0, 12)">
+			<rect class="c1 c2"  width="75" height="3" fill="red"/>
+			<!-- Class 2 -->
+		</g>
+	</g>
+	<g transform="translate(0, 18)">
+		<g id="g6">
+			<rect  width="75" height="3" fill="red"/>
+			<!-- Universal -->
+		</g>
+		<g id="g7" transform="translate(0, 3)">
+			<rect  width="75" height="3" fill="red"/>
+			<!-- Attribute -->
+		</g>
+		<g id="g8" transform="translate(0, 6)">
+			<rect  width="75" height="3" fill="red"/>
+			<!-- Attribute= -->
+		</g>
+		<g id="g9" transform="translate(0, 9)">
+			<rect class="c1"  width="75" height="3" fill="red"/>
+			<!-- Attribute^= -->
+		</g>
+		<g id="g10" transform="translate(0, 12)">
+			<rect class="c1 c2"  width="75" height="3" fill="red"/>
+			<!-- Attribute&amp;= -->
+		</g>
+	</g>
+	<g transform="translate(0, 36)">
+		<g id="g11">
+			<rect  width="75" height="3" fill="red"/>
+			<!-- not(dummy) -->
+		</g>
+		<g id="g12" transform="translate(0, 3)">
+			<rect  width="75" height="3" fill="red"/>
+			<!-- not(#dummy) -->
+		</g>
+		<g id="g13" transform="translate(0, 6)">
+			<rect  width="75" height="3" fill="red"/>
+			<!-- not(.dummy) -->
+		</g>
+		<g id="g14" transform="translate(0, 9)">
+			<rect class="c1"  width="75" height="3" fill="red" xml:lang="se"/>
+			<!-- lang(se) -->
+		</g>
+		<g id="g15" transform="translate(0, 12)">
+			<rect class="c1 c2"  width="75" height="3" fill="red"/>
+			<!-- empty -->
+		</g>
+	</g>
+</svg>

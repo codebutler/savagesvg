@@ -1,0 +1,99 @@
+g
+{
+	fill: #123456 !important;
+	opacity: 0.5;
+}
+
+rect{
+	/* test for different property values */
+	string: "a string";
+	rect: rect(10cm 23px 45px 89px);
+}
+
+#theRect{
+		stroke: #654321;
+
+}
+
+.aClass{
+	stroke: #654321;
+
+}
+
+.colorTest{
+	longhex: #654321;
+	shorthex: #123;
+	name : mediumseagreen;
+	rgbabs: rgb(45, 78,98);
+	rgbperc: rgb(23%, 45%,67%);
+	grey-name : lightslategrey;	/*test for a difference between to HTML color names and those in .NET*/
+}
+
+.floatTests{
+	float-unitless:67;
+	float-px:12px;
+	float-cm:10cm;
+	float-mm:10mm;
+	float-in:10in;
+	float-pc:10pc;
+	float-pt:10pt;
+}
+
+.placeholder{
+	stroke: #654321;
+
+}
+
+.placeholder{
+	stroke: #654321;
+
+}
+
+.placeholder{
+	stroke: #654321;
+
+}
+
+.placeholder{
+	stroke: #654321;
+
+}
+
+.placeholder{
+	stroke: #654321;
+
+}
+
+.placeholder{
+	stroke: #654321;
+
+}
+
+.placeholder{
+	stroke: #654321;
+
+}
+
+.placeholder{
+	stroke: #654321;
+
+}
+
+@media screen{
+	.placeholder{
+	stroke: #654321;
+	
+	}
+	
+	.placeholder{
+	stroke: #654321;
+	
+	}
+}
+
+@media notamedia{
+	.placeholder{
+	stroke: #654321;
+	
+	}
+}

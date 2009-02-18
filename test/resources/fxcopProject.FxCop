@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<FxCopProject Version="1.091">
+    <ProjectOptions>
+        <PersistViolations>False</PersistViolations>
+        <SharedProject>False</SharedProject>
+    </ProjectOptions>
+    <TargetAssemblies>
+        <TargetAssembly Visible="True">..\build\sharpvectorcss.dll</TargetAssembly>
+        <TargetAssembly Visible="True">..\build\sharpvectorobjectmodel.dll</TargetAssembly>
+        <TargetAssembly Visible="True">..\build\sharpvectorrenderingengine.dll</TargetAssembly>
+        <TargetAssembly Visible="True">..\build\sharpvectorscripting.dll</TargetAssembly>
+        <TargetAssembly Visible="True">..\build\SharpVectorUtil.dll</TargetAssembly>
+    </TargetAssemblies>
+    <Rules>
+        <RuleAssemblies>
+            <RuleAssembly Visible="True" Name="$(FxCopDir)\rules\comrules.dll" />
+            <RuleAssembly Visible="True" Name="$(FxCopDir)\rules\designrules.dll" />
+            <RuleAssembly Visible="True" Name="$(FxCopDir)\rules\globalizationrules.dll" />
+            <RuleAssembly Visible="True" Name="$(FxCopDir)\rules\namingrules.dll" />
+            <RuleAssembly Visible="True" Name="$(FxCopDir)\rules\performancerules.dll" />
+            <RuleAssembly Visible="True" Name="$(FxCopDir)\rules\securityrules.dll" />
+            <RuleAssembly Visible="True" Name="$(FxCopDir)\rules\usagerules.dll" />
+        </RuleAssemblies>
+    </Rules>
+    <ExcludeFiles>
+        <ProjectExclude Visible="True" />
+    </ExcludeFiles>
+    <Exclusions />
+</FxCopProject>

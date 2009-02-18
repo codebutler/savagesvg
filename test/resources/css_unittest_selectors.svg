@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE a  [
+	<!ELEMENT a (#PCDATA | b | e | f | ns:g)*>
+<!ATTLIST a
+	xmlns:ns CDATA #REQUIRED
+>
+<!ELEMENT b (#PCDATA | c)*>
+<!ATTLIST b
+	id CDATA #REQUIRED
+	att CDATA #REQUIRED
+	class CDATA #REQUIRED
+	ns:nsatt CDATA #REQUIRED
+>
+<!ELEMENT c (#PCDATA | d)*>
+<!ATTLIST c
+	id ID #REQUIRED
+	xml:lang CDATA #REQUIRED
+	hreflang CDATA #REQUIRED
+>
+<!ELEMENT d (#PCDATA)>
+<!ELEMENT e EMPTY>
+<!ELEMENT f EMPTY>
+<!ELEMENT ns:g EMPTY>	
+]>
+<a xmlns:ns="http://www.sharpvectors.org">asdsa
+	<b id="mrB" att="attvalue" class="class1 class2 class3" ns:nsatt="foo">
+		<c id="mrC" xml:lang="se-SV" hreflang="sv-FI">kjjkkjjk
+			<d>some text</d>
+		</c>sdfsdf
+	</b>
+	<e/>
+	<e/>
+	<e/>
+	<f/>
+	<ns:g/>
+</a>

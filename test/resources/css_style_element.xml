@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://www.sharpvectorgraphics.org/test-ns">
+	<a type="text/css">
+		b{
+			foo: bar;
+		}		
+	</a>
+	
+	<b />
+
+</root>
